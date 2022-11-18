@@ -1,10 +1,15 @@
 header {
-    background-color:slategrey;
-    color: white;
-    margin-right: auto;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+article{
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Principal{
@@ -27,10 +32,15 @@ header {
     padding-right: 70px;
     filter: saturate(1);
 }
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
 
 h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    font-size: 11pt;
 }
 
 p{
@@ -60,15 +70,15 @@ a:hover img {
 
 #CajaSuperior{
     display:inline-block;
-    margin-left: 260px;
-    margin-right: auto;
+    margin-left: 20%;
+    margin-right: 20%;
     width: auto;
     position: relative;
     text-align:center;
 }
 
 li {
-    padding: 10px;
+    padding: 5px;
     display: inline-block;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: auto;
