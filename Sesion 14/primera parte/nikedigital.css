@@ -1,0 +1,85 @@
+body {
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;    
+}
+
+#cajaArriba{
+    background-color: black;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+    width: 100vw;
+    height: 20vh;
+ 
+
+    /*alineado al centro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-size: 20px;
+    border: dotted;
+   
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#prueba:hover{
+
+    position: relative;
+    left: 5px;
+    bottom: 15px;
+}
+
+#cajaSuperior {
+    width: 100vw; /* que ocupe el ancho de la pantalla */
+    height: 100vh; /* para que sea cuadrada (igual a width) */
+    background-image: url(imgs/fondo.jpg);
+    background-size: contain; 
+    padding: 20vw;
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+#cajaCentral {
+    height: 100vh;
+    padding: 15vw;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 104px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 18px;
+    color: darkgray;
+}
+
+p {
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+#cajaInferior {
+    height: 100vh;
+    background-color: black;
+}
+
+ul {
+    list-style: none;    
+    font-size: 50px;
+    font-weight: 100;
+    padding: 15vw;
+    color: white;
+}
+
+li {
+    padding: 10px;
+}
