@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#principal{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Tipografia{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8pt;
+}
+
+.Tipografia div{
+    width: 33%;
+}
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+}
+.Sofia{
+    font-family: "Sofia", cursive;
+}
+
+.RubikMicrobe{
+    font-family: "Rubik Microbe", cursive;
+}
+
+.Noto_Sans_Korean{
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.Rubik_Distressed{
+    font-family: "Rubik Distressed", cursive;
+}
+
+.PatrickHand{
+    font-family: "Patrick Hand", cursive;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
