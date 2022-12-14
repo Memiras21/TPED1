@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+
+#superior{
+    background-color: blue;
+    height: 10vh;
+}
+
+#Uno{
+    background-color: brown;
+    height: 50vh;
+}
+
+#Dos{
+    background-color: chartreuse;
+    height: 80vh;
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+
+#superior{
+    background-color:gold;
+    height: 10vh;
+}
+
+#Uno{
+    background-color: brown;
+    height: 50vh;
+}
+
+#Dos{
+    background-color: chartreuse;
+    height: 50vh;
+}
+
+#Tres{
+    background-color: blue;
+    height: 50vh;
+}
+
+#Cuatro{
+    background-color: darkgreen;
+}

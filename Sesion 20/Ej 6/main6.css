@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+
+#Uno{
+    background-color: white;
+    height: 10vh;
+}
+
+#Dos{
+    background-color: chartreuse;
+    height: 10vh;
+}
+
+#Tres{
+    background-color: blue;
+    height: 10vh;
+}
+
+#Cuatro{
+    background-color:brown;
+    height: 50vh;
+}
+
+#Cinco{
+    background-color:darkslateblue;
+    height: 50vh;
+}
+
+#Seis{
+    background-color: blue;
+    height: 50vh;
+}
+
+#Siete{
+    background-color: white;
+    height: 10vh;
+}
+
+#Ocho{
+    background-color: darkgreen;
+    height: 10vh;
+}
+#Nueve{
+    background-color: blue;
+    height: 10vh;
+}
