@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#Menu1{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+ul {
+    list-style: none;    
+    font-size: 12px;
+    color: black;
+}
+
+li {
+    padding: 10px;
+}
+
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+padding: 5%;
+}
+
+p{
+    font-size: 10pt;
+    font-family: Verdana;
+    text-align: center;
+}
+
+#Logo{
+    color: black;
+}
+
+h3{
+    text-align: center;
+}
+
+#contenido1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caja{
+    width: 33%;
+    padding: 3%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Texto{
+    background-color: blue;
+}
+
+h4{
+    font-family: Verdana;
+    text-align: center;
+}
