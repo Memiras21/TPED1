@@ -59,8 +59,12 @@ h3{
     justify-content: center;
 }
 
-.Texto{
-
+#Texto{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
 }
 
 h4{
