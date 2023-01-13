@@ -20,14 +20,6 @@ li {
     padding: 10px;
 }
 
-img{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 60%;
-padding: 5%;
-}
-
 p{
     font-size: 10pt;
     font-family: Verdana;
@@ -47,18 +39,4 @@ h3{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-}
-
-.caja{
-    width: 33%;
-    padding: 3%;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: center;
-}
-
-h4{
-    font-family: Verdana;
-    text-align: center;
 }
